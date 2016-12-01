@@ -1,0 +1,40 @@
+{
+  "name": "gulp-named",
+  "version": "0.0.0",
+  "description": "named exports for gulp.",
+  "license": "MIT",
+  "repository": "egoist/gulp-named",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "eslint src/*.js",
+    "build": "bili --exports named"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/gulp-named.common.js",
+  "keywords": [
+    "gulp"
+  ],
+  "devDependencies": {
+    "bili": "^0.8.0",
+    "eslint": "latest",
+    "eslint-config-rem": "latest"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "eslintConfig": {
+    "extends": "rem/esnext"
+  },
+  "peerDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
