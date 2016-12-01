@@ -1,6 +1,6 @@
 {
   "name": "gulp-named",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "named exports for gulp.",
   "license": "MIT",
   "repository": "egoist/gulp-named",
