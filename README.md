@@ -1,6 +1,6 @@
-# gulp-named
+# gulp-named [![NPM version](https://img.shields.io/npm/v/gulp-named.svg?style=flat-square)](https://npmjs.com/package/gulp-named) [![NPM downloads](https://img.shields.io/npm/dm/gulp-named.svg?style=flat-square)](https://npmjs.com/package/gulp-named) [![Build Status](https://img.shields.io/circleci/project/egoist/gulp-named/master.svg?style=flat-square)](https://circleci.com/gh/egoist/gulp-named)
 
-[![NPM version](https://img.shields.io/npm/v/gulp-named.svg?style=flat-square)](https://npmjs.com/package/gulp-named) [![NPM downloads](https://img.shields.io/npm/dm/gulp-named.svg?style=flat-square)](https://npmjs.com/package/gulp-named) [![Build Status](https://img.shields.io/circleci/project/egoist/gulp-named/master.svg?style=flat-square)](https://circleci.com/gh/egoist/gulp-named)
+Make your gulpfile cleaner and more expressive.
 
 ## Install
 
@@ -24,6 +24,8 @@ task('watch', () => {
   watch('./js/*.js', ['js'])
 })
 ```
+
+<img src="./media/preview.jpg" alt="preview" width="500">
 
 ## Contributing
 
